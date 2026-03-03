@@ -1,0 +1,405 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+body {
+  background:
+    linear-gradient(rgba(245,247,250,0.96), rgba(245,247,250,0.96)),
+    url("https://images.unsplash.com/photo-1601597111158-2fceff292cdc");
+  background-size: cover;
+  background-attachment: fixed;
+  color: #1f2933;
+}
+
+/* NAVBAR */
+.navbar {
+  background: linear-gradient(90deg, #0b1f33, #102a43);
+  padding: 18px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.navbar a {
+  color: #e5e7eb;
+  text-decoration: none;
+  margin-left: 26px;
+  font-size: 14px;
+}
+
+.navbar a:hover {
+  color: #ffffff;
+}
+
+/* MAIN CONTAINER */
+.container {
+  max-width: 1050px;
+  margin: 60px auto;
+  background: #ffffff;
+  padding: 50px;
+  border-radius: 10px;
+  box-shadow: 0 25px 40px rgba(0, 0, 0, 0.08);
+}
+
+/* HEADINGS */
+h2 {
+  font-size: 26px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+p {
+  color: #4b5563;
+  line-height: 1.7;
+  font-size: 15px;
+}
+
+/* HERO (HOME PAGE) */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+  background:
+    linear-gradient(rgba(255,255,255,0.96), rgba(255,255,255,0.96)),
+    url("https://images.unsplash.com/photo-1554224155-6726b3ff858f");
+  background-size: cover;
+  background-position: center;
+  padding: 60px; 
+  border-radius: 10px;
+}
+
+.hero img {
+  width: 360px;
+  opacity: 0.95;
+}
+
+/* FORMS */
+form {
+  max-width: 440px;
+  margin-top: 10px;
+}
+
+input {
+  width: 100%;
+  padding: 13px;
+  margin-bottom: 18px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #102a43;
+}
+
+/* BUTTONS */
+button {
+  width: 100%;
+  padding: 13px;
+  background: linear-gradient(90deg, #102a43, #0b1f33);
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.95;
+}
+
+/* TABLE */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  border-bottom: 1px solid #e5e7eb;
+  padding: 14px;
+  font-size: 14px;
+}
+
+.table th {
+  background: #f9fafb;
+  font-weight: 600;
+}
+
+/* SMALL SECTIONS */
+.section {
+  margin-top: 28px;
+}
+
+.section p {
+  margin-bottom: 6px;
+}
+
+
+/* Deposit success page */
+.success-page {
+  text-align: center;
+  max-width: 500px;
+}
+
+.success-page h2 {
+  color: #0b1f33;
+  margin-bottom: 10px;
+}
+
+.success-page p {
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+.home-link {
+  display: inline-block;
+  padding: 12px 30px;
+  background: linear-gradient(90deg, #102a43, #0b1f33);
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.home-link:hover {
+  opacity: 0.95;
+}
+
+
+
+/* Basic Reset */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Navbar Style */
+.navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Container for Forms */
+.container {
+    width: 400px;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+    margin-bottom: 25px;
+}
+
+/* Form Elements */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    text-align: left;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Success/Hero Section Specifics */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.hero img {
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+/* 1. Main White Box (Container) */
+.container_hero {
+    max-width: 1000px; /* Box ki chodaayi set ki */
+    margin: 50px auto; /* Center mein laane ke liye */
+    background: #ffffff;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Sunder shadow */
+    
+    /* Flexbox: Isse text aur image side-by-side aayenge */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+/* 2. Left Side (Text content) */
+.container_hero > div {
+    flex: 1;
+    text-align: left; /* Text ko left rakha professional look ke liye */
+}
+
+.container_hero h2 {
+    font-size: 32px;
+    color: #0b1f33;
+    margin-bottom: 15px;
+}
+
+.container_hero p {
+    color: #4b5563;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* 3. Right Side (Bank Image/Icon) */
+.container_hero img {
+    flex: 1;
+    max-width: 380px; /* Image bahut badi na ho jaye */
+    height: auto;
+    object-fit: contain;
+}
+
+/* 4. Feature List (Secure transactions etc.) */
+.section {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f8fafc;
+    border-left: 5px solid #102a43;
+    border-radius: 4px;
+}
+
+/* Responsive: Mobile par text upar aur image neeche ho jayegi */
+@media (max-width: 768px) {
+    .container_hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px;
+    }
+    .container_hero img {
+        max-width: 250px;
+    }
+}
+
+
+
+/* Table alignment and spacing fix */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: #fff;
+    table-layout: fixed; /* Columns ko barabar failane ke liye */
+}
+
+.table th, .table td {
+    padding: 15px 10px; /* Padding badhai taaki text saaf dikhe */
+    border-bottom: 1px solid #eee;
+    text-align: left; /* Align text to the left for better reading */
+    word-wrap: break-word; /* Long text overflow na kare */
+}
+
+.table th {
+    background: #f8fafc;
+    color: #102a43;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+/* Center aligning numbers for better look */
+.table td:first-child, .table th:first-child {
+    text-align: center;
+    width: 80px; /* Acc No column ko chhota rakha */
+}
+
+
+
+
+
+
+/* Special Buttons for Edit and Delete */
+.btn-edit {
+    background-color: #3b82f6 !important; /* Blue color */
+    color: white !important;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.btn-delete {
+    background-color: #ef4444 !important; /* Red color */
+    color: white !important;
+    padding: 6px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 8px;
+}
+
+.btn-edit:hover { background-color: #2563eb !important; }
+.btn-delete:hover { background-color: #dc2626 !important; }
